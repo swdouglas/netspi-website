@@ -87,7 +87,7 @@ h1 {
   padding-left: 10%;
   padding-right: 10%;
   border-bottom: solid;
-  border-width:0.5px;
+  border-width: 0.5px;
   padding-bottom: 5%;
 }
 
@@ -121,9 +121,11 @@ a {
 .prevtop {
   display: none;
 }
+
 .topbar {
-  display:none;
-  }
+  display: none;
+}
+
 @media (max-width: 900px) {
   .container {
     display: flex;
@@ -142,9 +144,11 @@ a {
     margin: 0;
     text-align: center;
   }
-.intro {
+
+  .intro {
     font-size: 0.9rem;
   }
+
   .left-side a {
     color: white;
     padding: 0%;
@@ -156,12 +160,13 @@ a {
 
 
   }
+
   .right-side img {
-  max-width: 100%;
-  height: auto;
-  align-items: center;
-}
- 
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
 
   .smiley {
     width: 60%;
@@ -187,7 +192,8 @@ a {
     border-bottom-width: 0.5px;
     border-bottom-style: solid;
   }
-    .prevtop {
+
+  .prevtop {
     text-align: center;
     display: inline;
     position: fixed;
@@ -196,10 +202,11 @@ a {
     border-bottom-width: 0.5px;
     border-bottom-style: solid;
   }
-      .topbar {
-    height:4%;
-    top:-1px;
-    padding-top:0%;
+
+  .topbar {
+    height: 4%;
+    top: -1px;
+    padding-top: 0%;
     text-align: center;
     display: none;
     position: fixed;
@@ -209,7 +216,7 @@ a {
     border-top-style: solid;
     border-bottom-width: 0.5px;
     border-bottom-style: solid;
-    
+
   }
 
   .wide {
@@ -224,19 +231,22 @@ a {
   .right-side {
     padding-top: 30px;
   }
-.menu {
-  display:inline;
-  padding:5%;
-  font-size:1rem;
+
+  .menu {
+    display: inline;
+    padding: 5%;
+    font-size: 1rem;
   }
 
- }
- @media (min-width: 901px) {
-   .topbar {
-     display:none;
-     }
-   
-   }
+}
+
+@media (min-width: 901px) {
+  .topbar {
+    display: none;
+  }
+
+}
+
 @media (max-height: 900px) {
   .left-side {
     font-size: 1em;
